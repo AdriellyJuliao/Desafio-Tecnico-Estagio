@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/AdriellyJuliao/Desafio-Tecnico-Estagio#readme",
   "devDependencies": {
-    "cypress": "^12.0.0"
+    "cypress": "^12.17.4"
   }
 }
