@@ -5,13 +5,13 @@ describe('Testes de cadastro do site - Automation Practice', () => {
 
   //Cenário número 2: 
   it('Verifica o cadastramento realizado com sucesso', () => {
-    cy.get('#email_create').type('Lui@gmail.com')
+    cy.get('#email_create').type('Louise@gmail.com')
     cy.get('#SubmitCreate > span').click()
 
     cy.get('#account-creation_form').should('be.visible')
 
     cy.get('#id_gender2').click()
-    cy.get('#customer_firstname').type('Lui')
+    cy.get('#customer_firstname').type('Louise')
     cy.get('#customer_lastname').type('Souza')
     cy.get('#passwd').type('Teste@123')
     cy.get('#days').select('21')
