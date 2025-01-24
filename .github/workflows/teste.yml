@@ -2,10 +2,9 @@ name: Testes Pagina de Login
 
 on:
   push:
-    branches: [main] 
+    branches: ['main', 'pipeline']
   pull_request:
     branches: [main] 
-
 
 
 jobs:
@@ -20,10 +19,11 @@ jobs:
       - name: Setup Node.js 
         uses: actions/setup-node@v3
         with:
-          node-version: 22.
+          node-version: 22
 
       - name: Install dependencies
         run: npm install
 
       - name: Run Cypress tests
-        uses: npx cypress run
+        uses: cypress-io/github-action@v3
+
