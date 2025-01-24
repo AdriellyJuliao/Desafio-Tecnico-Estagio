@@ -5,12 +5,14 @@ describe('Testes de cadastro do site - Automation Practice', () => {
 
   //Cenário número 2: 
   it('Verifica o cadastramento realizado com sucesso', () => {
-    cy.get('#email_create').type('Louis@gmail.com')
+    const emailNumber = Math.floor(Math.random() * 10000)
+    const email = `Louise${emailNumber}@gmail.com`
+    cy.get('#email_create').type(email)
     cy.get('#SubmitCreate > span').click()
     cy.wait(3000)
 
     cy.get('#id_gender2').click()
-    cy.get('#customer_firstname').type('Louis')
+    cy.get('#customer_firstname').type('Louise')
     cy.get('#customer_lastname').type('Souza')
     cy.get('#passwd').type('Teste@123')
     cy.get('#days').select('21')
