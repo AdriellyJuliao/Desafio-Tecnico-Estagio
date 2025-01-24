@@ -1,6 +1,6 @@
 describe('Testes de login do site - Automation Practice', () => {
   beforeEach(() => {
-    cy.visit('http://www.automationpractice.pl/index.php?controller=authentication&back=my-account.cypress.io');
+    cy.visit('http://www.automationpractice.pl/index.php?controller=authentication&back=my-account');
   })
 
   //Cenário número 1: 

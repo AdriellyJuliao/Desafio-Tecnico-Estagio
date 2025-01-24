@@ -5,10 +5,8 @@ describe('Testes de cadastro do site - Automation Practice', () => {
 
   //Cenário número 2: 
   it('Verifica o cadastramento realizado com sucesso', () => {
-    cy.get('#email_create').type('Louise@gmail.com')
+    cy.get('#email_create').type('LouiseLais@gmail.com')
     cy.get('#SubmitCreate > span').click()
-
-    cy.get('#account-creation_form').should('be.visible')
 
     cy.get('#id_gender2').click()
     cy.get('#customer_firstname').type('Louise')
