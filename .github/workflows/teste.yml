@@ -2,9 +2,10 @@ name: Testes Pagina de Login
 
 on:
   push:
-    branches: [main] 
+    branches: ['main', 'pipeline']
   pull_request:
     branches: [main] 
+
 
 jobs:
   testes-login:
