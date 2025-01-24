@@ -9,7 +9,7 @@ describe('Testes de login do site - Automation Practice', () => {
     cy.get('#passwd').type('teste123')
     cy.get('#SubmitLogin > span').click()
 
-    cy.get('#center_column > :nth-child(2)').should('be.visible')
+    cy.get('#center_column > :nth-child(2)').should('be.visible', 'Authentication failed.')
   })
    
 })

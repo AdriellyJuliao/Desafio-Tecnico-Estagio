@@ -1,0 +1,27 @@
+{
+  "name": "desafio-tecnico-estagio",
+  "version": "1.0.0",
+  "description": "Este repositório contém cenários de teste para a página de login site [Automation Practice](http://automationpractice.pl). Os testes foram desenvolvidos utilizando o framework **Cypress**.",
+  "main": "cypress.config.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdriellyJuliao/Desafio-Tecnico-Estagio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdriellyJuliao/Desafio-Tecnico-Estagio/issues"
+  },
+  "homepage": "https://github.com/AdriellyJuliao/Desafio-Tecnico-Estagio#readme",
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}
