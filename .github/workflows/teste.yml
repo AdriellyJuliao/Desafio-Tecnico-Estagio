@@ -1,10 +1,7 @@
 name: Testes Pagina de Login
 
 on:
-  push:
-    branches: [main] 
-  pull_request:
-    branches: [main] 
+  [push, pull_request] 
 
 jobs:
   testes-login:
@@ -24,4 +21,4 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npx cypress run
+        uses: cypress-io/github-actions@v5
