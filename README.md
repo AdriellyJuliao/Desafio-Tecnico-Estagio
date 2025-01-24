@@ -29,7 +29,11 @@ cd Desafio-Tecnico-Estagio
 ### 3. Instale as dependências do Cypress
 Execute o comando abaixo para instalar o Cypress como dependência de desenvolvimento:
 ```bash
-npm install cypress@13.12.0 --save-dev OU npm i cypress@13.12.0 -D
+npm install cypress@13.12.0 --save-dev 
+```
+Ou também pode usar essa versão mais curta:
+```bash
+npm i cypress@13.12.0 -D
 ```
 ### 4. Abra o Cypress
 Após instalar as dependências, abra o Cypress com o seguinte comando:
