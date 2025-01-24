@@ -40,3 +40,8 @@ Após instalar as dependências, abra o Cypress com o seguinte comando:
 ```bash
 npx cypress open
 ```
+Ou execute no terminal 
+
+```bash
+npx cypress run
+```
